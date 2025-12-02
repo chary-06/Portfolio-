@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narendra Chary - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- Header & Navbar -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+                <div class="theme-toggle-container">
+                    <label class="theme-toggle">
+                        <input type="checkbox" id="theme-toggle">
+                        <span class="theme-icons">
+                            <i class="fas fa-sun theme-icon sun-icon"></i>
+                            <i class="fas fa-moon theme-icon moon-icon"></i>
+                        </span>
+                    </label>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <br> <span class="span">Narendra chary</span></h1>
+                    <div class="profession">
+                        <span>Web Developer</span>
+                        <br>
+                        <span>UI/UX Designer</span>
+                        <br>
+                        <span>Full Stack Developer</span>
+                        <br>
+                        <span>Freelancer</span>
+                    </div>
+                    <!-- <p>I create beautiful, functional websites and applications with a focus on user experience and performance.</p> -->
+                    <div>
+                        <a href="#contact" class="cta-button">Get In Touch</a>
+                        <a href="Chary_resume.pdf" class="cta-button1">Resume</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="./assets/images/Man.png" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./assets/images/chary2.jpg" alt="About Image">
+                </div>
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>Hi! I'm <span style="color: rgb(255, 0, 0);font-weight: 1000;">Narendra chary</span> and I'm a developer who has passion for building clean web applications with intuitive functionalities.</p>
+                    <p>I enjoy the process of turning ideas into reality using creative solutions. I'm always curious about learning new skills, tools, and concepts.</p>
+                    <p>In addition to working on various solo full stack projects, I have worked with creative teams, which involves daily stand-ups and communications, source control, and project management.</p>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skills-left">
+                    <h3>Technical Expertise</h3>
+                    <p>I specialize in modern web technologies with hands-on experience in both frontend and backend development.</p>
+                    <div class="toggle-buttons">
+                        <button class="toggle-btn active" id="skills-btn">Skills</button>
+                        <button class="toggle-btn" id="tools-btn">Tools</button>
+                    </div>
+                </div>
+                <div class="skills-right" id="skills-display">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-container">
+                <p>Here are some of my recent projects. Each project was carefully crafted to solve specific problems and deliver exceptional user experiences.</p>
+                <div class="projects-slider">
+                    <div class="project-card">
+                        <img src="./assets/images/RSA.png" alt="Project 1">
+                        <h4>Roadside Assistance</h4>
+                        <p>This is the frontend part of the Roadside Assistant web application, designed to help users request roadside help in case of vehicle breakdowns.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/chary-06/Roadside-Assistant"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/images/SL2T.png" alt="Project 2">
+                        <h4>Sign Language to Text</h4>
+                        <p>This application is designed to assist users in converting sign language gestures into text using CNN.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/chary-06/Conversation-of-Sign-Language-To-Text"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assets/images/VVA.png" alt="Project 3">
+                        <h4>Virtual Voice Assistant</h4>
+                        <p>The project combines speech recognition with AI-powered responses to handle diverse tasks through natural voice commands.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/chary-06/Virtual-Voice-Assistant-"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <!-- <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Project 4">
+                        <h4>Recipe Finder</h4>
+                        <p>Search for recipes based on ingredients you have at home with nutritional info.</p>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Feel free to reach out to me for any questions or opportunities. I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Hyderabad, Telangana</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>narendracharych18@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 7893708372</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <h3>Connect With Me</h3>
+                    <p>You can also find me on these platforms. Let's connect and start a conversation!</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/narendra-chary/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/chary-06"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/js/style.js"></script>
+</body>
+</html>
